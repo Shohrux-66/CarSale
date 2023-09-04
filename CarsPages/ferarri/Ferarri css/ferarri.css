@@ -344,7 +344,7 @@ a {
   border: 3px solid #004225;
 }
 .table .line {
-    margin: 0;
+  margin: 0;
 }
 .longer-blank {
   width: 100%;
@@ -355,28 +355,28 @@ a {
   grid-template-columns: 0.6fr 0.1fr 0.6fr 0.1fr 0.6fr;
 }
 .longer-blank h3 {
-  font-size: 17px;
+  font-size: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .longer-blank .text-car {
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    gap: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 20px;
 }
 .longer-blank .text-car n {
-    color: #c40c19;
-    font-size: 20px;
-    font-weight: 600;
+  color: #c40c19;
+  font-size: 20px;
+  font-weight: 600;
 }
 .longer-blank .text-car p {
-    color: #c40c19;
-    font-size: 16px;
-    font-weight: 600;
+  color: #c40c19;
+  font-size: 16px;
+  font-weight: 600;
 }
 .longer-blank .height-line {
   width: 3px;
