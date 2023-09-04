@@ -8,6 +8,33 @@
       {
         "button-name": "off"
       }
-    ]
+    ],
+    "button-type": "off",
+    "axe/keyboard": [
+      "default",
+      {
+        "nested-interactive": "off"
+      }
+    ],
+    "axe/aria": [
+      "default",
+      {
+        "empty-table-header": "off"
+      }
+    ],
+    "no-inline-styles": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "user-select"
+        ]
+      }
+    ],
+    "meta-viewport": "off",
+    "detect-css-reflows/composite": "off",
+    "detect-css-reflows/layout": "off",
+    "detect-css-reflows/paint": "off",
+    "highest-available-document-mode": "off"
   }
 }
