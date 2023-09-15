@@ -33,6 +33,7 @@ function showApi(products) {
       </div>
       <div class="to_-_to-one">
         <div class="the_content_description">
+          <p>${item.CarModel}</p>
           <p>${item.CarName}</p>
         </div>
         <div class="the_link_to_shop_now">

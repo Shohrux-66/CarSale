@@ -24,8 +24,6 @@ a:hover {
   height: 2px;
   background-color: #fed136;
   display: block;
-  margin-top: 5px;
-  margin-bottom: 5px;
   pointer-events: none;
 }
 .top-content {
@@ -35,7 +33,12 @@ a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-top: 20px;
+  padding: 20px;
+  background-image: url(../LamborghiniImages/car-2.png);
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+  background-repeat: no-repeat;
 }
 .logo {
   max-width: 100px;
@@ -44,7 +47,7 @@ a:hover {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  margin-left: 300px;
+  margin-left: 110px;
 }
 .logo img {
   max-width: 100%;
@@ -53,7 +56,7 @@ a:hover {
   cursor: pointer;
 }
 .top-content h1 {
-  margin-right: 270px;
+  margin-right: 50px;
   font-weight: 600;
   font-size: 35px;
   animation: animationColor 10s linear infinite;
@@ -131,40 +134,49 @@ a:hover {
 }
 .cars {
   width: 100%;
-  height: max-content;
+  min-height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
   align-items: center;
   justify-content: center;
 }
-.theCar {
-  width: 300px;
-  height: max-content;
+.cars .theCar {
+  width: 100%;
+  height: 350px;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   flex-direction: column;
   gap: 20px;
-  border: 2px solid #000;
-  border-radius: 3px;
+  border: 3px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #6f6f6f;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
 }
-.theCar .image {
-  max-width: 300px;
-  max-height: 300px;
+.cars .theCar:hover {
+  transition: all 0.5s ease-in-out;
+  -webkit-box-shadow: 1px 3px 11px 0px #000;
+  box-shadow: 1px 3px 11px 0px #000;
+}
+.cars .theCar .image {
+  width: 300px;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
 }
-.theCar .image img {
+.cars .theCar .image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   cursor: pointer;
   animation: dropAnimation 5s normal forwards;
 }
-.description {
+.cars .theCar .description {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -175,28 +187,28 @@ a:hover {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.description m {
+.cars .theCar .description m {
   width: 100%;
   font-size: 25px;
   font-weight: 600;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   padding: 10px;
 }
-.description p {
+.cars .theCar .description p {
   width: 100%;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   font-size: 18px;
   padding: 5px;
   cursor: text;
 }
-.description a {
+.cars .theCar  .description a {
   width: 100%;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   font-weight: 600;
   cursor: pointer;
   padding: 10px;
 }
-.description button {
+.cars .theCar  .description button {
   width: 150px;
   padding: 10px;
   background-color: #fff;
@@ -210,7 +222,7 @@ a:hover {
   cursor: pointer;
   border: 1px solid;
 }
-.description button:hover {
+.cars .theCar  .description button:hover {
   background-color: #000;
   color: #fff;
   transition: all 0.5s ease-in-out;

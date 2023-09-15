@@ -428,14 +428,19 @@ input::-webkit-inner-spin-button {
 }
 .the_content .content_image {
   width: 100%;
+  height: 120px;
+  overflow: hidden;
+}
+.the_content .content_image a {
+  width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 }
 .the_content .content_image img {
-  max-height: 300px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 12px;
   transition: all 0.5s ease-in-out;
@@ -447,8 +452,13 @@ input::-webkit-inner-spin-button {
   transition: all 0.5s ease-in-out;
 }
 .the_content_description {
-  padding-left: 30px;
-  padding-right: 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -460,7 +470,7 @@ input::-webkit-inner-spin-button {
 }
 .the_content_description p {
   text-align: left;
-  font-size: 22px;
+  font-size: 17px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #000;
   cursor: pointer;
