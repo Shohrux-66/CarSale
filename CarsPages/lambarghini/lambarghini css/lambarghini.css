@@ -263,16 +263,18 @@ a:hover {
   gap: 20px;
 }
 .more-informations .content-vidio {
-  width: 1100px;
+  width: 1000px;
   height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  background-position: center;
 }
 .more-informations .content-image video {
   width: 100%;
   height: 100%;
+  object-fit: contain;
 }
 .more-informations .description button a {
   text-decoration: none;
