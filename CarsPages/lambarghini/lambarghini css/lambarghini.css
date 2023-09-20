@@ -45,9 +45,9 @@ a:hover {
   max-height: 300px;
   overflow: hidden;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  margin-left: 110px;
+  margin-left: 320px;
 }
 .logo img {
   max-width: 100%;
@@ -56,7 +56,7 @@ a:hover {
   cursor: pointer;
 }
 .top-content h1 {
-  margin-right: 50px;
+  margin-right: 80px;
   font-weight: 600;
   font-size: 35px;
   animation: animationColor 10s linear infinite;
@@ -134,7 +134,7 @@ a:hover {
 }
 .cars {
   width: 100%;
-  min-height: 100%;
+  height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
@@ -142,16 +142,16 @@ a:hover {
   justify-content: center;
 }
 .cars .theCar {
+  cursor: pointer;
   width: 100%;
-  height: 350px;
+  height: 100%;
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   gap: 20px;
   border: 3px solid #000;
   border-radius: 5px;
-  cursor: pointer;
   background-color: #6f6f6f;
   color: #fff;
   transition: all 0.5s ease-in-out;
@@ -162,14 +162,16 @@ a:hover {
   box-shadow: 1px 3px 11px 0px #000;
 }
 .cars .theCar .image {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  background-position: center;
 }
 .cars .theCar .image img {
+  max-width: 400px;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -201,14 +203,14 @@ a:hover {
   padding: 5px;
   cursor: text;
 }
-.cars .theCar  .description a {
+.cars .theCar .description a {
   width: 100%;
   border: 1px solid #fff;
   font-weight: 600;
   cursor: pointer;
   padding: 10px;
 }
-.cars .theCar  .description button {
+.cars .theCar .description button {
   width: 150px;
   padding: 10px;
   background-color: #fff;
@@ -218,11 +220,11 @@ a:hover {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
-  margin-left: 50px;
+  margin-left: 70px;
   cursor: pointer;
   border: 1px solid;
 }
-.cars .theCar  .description button:hover {
+.cars .theCar .description button:hover {
   background-color: #000;
   color: #fff;
   transition: all 0.5s ease-in-out;
@@ -246,33 +248,31 @@ a:hover {
   height: max-content;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 50px;
   padding-left: 100px;
   padding-right: 100px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 .more-informations .content {
-  max-width: 100%;
-  max-height: 450px;
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
-  padding-bottom: 50px;
 }
-.more-informations .content-image {
-  max-width: 450px;
-  max-height: 450px;
+.more-informations .content-vidio {
+  width: 1100px;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
 }
-.more-informations .content-image img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-  cursor: pointer;
+.more-informations .content-image video {
+  width: 100%;
+  height: 100%;
 }
 .more-informations .description button a {
   text-decoration: none;
@@ -284,47 +284,47 @@ a:hover {
   color: #fff;
 }
 .content-2 {
+  width: 100%;
+  height: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row-reverse;
   gap: 20px;
-  padding-bottom: 50px;
 }
 .big-description {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 20px;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
-  border: 3px solid #000;
-  padding-top: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 20px;
-  gap: 5px;
+  text-align: center;
 }
 .big-description .location {
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
   flex-direction: row;
-  border: 2px solid #000;
   gap: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #000;
 }
 .big-description .location c {
   font-size: 30px;
   font-weight: 600;
   background-color: #000;
-  border: 2px solid #febe05;
+  border: 3px solid #febe05;
   color: #fff;
   padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transform: translateX(240deg);
 }
 .big-description .location c:hover {
   background-color: #fff;
@@ -333,28 +333,42 @@ a:hover {
   transition: all 0.6s ease-in-out;
 }
 .big-description .options-1 {
-  padding: 30px;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #000;
-  cursor: text;
+  flex-direction: row;
+  gap: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #000;
 }
 .big-description .options-2 {
-  padding: 30px;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #000;
+  flex-direction: row;
+  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: large;
   cursor: text;
+  border-bottom: 3px solid #000;
 }
 .big-description .options-3 {
-  padding: 30px;
+  width: 100%;
+  height: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
-  border: 2px solid #000;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: large;
   cursor: text;
+  border-bottom: 3px solid #000;
 }
 /* footer */
 .footer-content {
@@ -477,6 +491,7 @@ a:hover {
   max-height: 100%;
   object-fit: cover;
   cursor: pointer;
+  background-position: center;
 }
 @keyframes frstanth {
   0% {
