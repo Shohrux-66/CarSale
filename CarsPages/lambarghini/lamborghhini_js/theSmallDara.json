@@ -1,0 +1,17 @@
+[
+    {
+        "theCarImage": "../LamborghiniImages/Lamborghini-Revuelto.jpg",
+        "theCarName": "Revuelto",
+        "theCarPrice": "604.000$"
+    },
+    {
+        "theCarImage": "../LamborghiniImages/Lamborghini-Urus.jpg",
+        "theCarName": "URUS S",
+        "theCarPrice": "273.000$"
+    },
+    {
+        "theCarImage": "../LamborghiniImages/Lamborghini-sterato.jpg",
+        "theCarName": "Sterrato",
+        "theCarPrice": "273.000$"
+    }
+]
