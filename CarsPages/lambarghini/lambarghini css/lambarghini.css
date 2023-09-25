@@ -37,8 +37,6 @@ a:hover {
   background-image: url(../LamborghiniImages/car-2.png);
   background-size: cover;
   background-position: center;
-  background-clip: border-box;
-  background-repeat: no-repeat;
 }
 .logo {
   max-width: 100px;
@@ -169,6 +167,7 @@ a:hover {
   justify-content: center;
   overflow: hidden;
   background-position: center;
+    transition: all 0.9s ease-in-out;
 }
 .cars .theCar .image img {
   max-width: 400px;
@@ -262,6 +261,9 @@ a:hover {
   justify-content: center;
   gap: 20px;
 }
+.more-informations .content:nth-child(2) {
+  flex-direction: row-reverse;
+}
 .more-informations .content-vidio {
   width: 1000px;
   height: 300px;
@@ -284,15 +286,6 @@ a:hover {
 }
 .more-informations .description button:hover a {
   color: #fff;
-}
-.content-2 {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row-reverse;
-  gap: 20px;
 }
 .big-description {
   width: 100%;

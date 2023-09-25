@@ -104,7 +104,7 @@ li {
 }
 /* m */
 .secondSmallBlank {
-  width: 400px;
+  width: 445px;
   height: max-content;
   z-index: 1 !important;
   text-align: center;
@@ -123,6 +123,7 @@ li {
   padding-right: 50px;
   transition: right 0.5s;
   transform: scale(0);
+  transition: all 0.3s ease-in-out;
 }
 .toped {
   display: flex;
@@ -943,7 +944,9 @@ button:hover {
   .secondSmallBlank.opened {
     transform-origin: center right top;
     transform: scale(1);
-    transition: all 0.9s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    display: block;
     right: 100px;
   }
 }

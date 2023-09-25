@@ -1,0 +1,23 @@
+[
+  {
+    "theCarModelName": "Revouleto",
+    "theCarVideo": "../lamborghini Videos/Lamborghini-Revouleto.mp4",
+    "theCarPowerCMB": "1015 CV",
+    "theCarMXSpeed": ">310.KM/H",
+    "theCarSEC": "2,1 S"
+  },
+  {
+    "theCarModelName": "URUS S",
+    "theCarVideo": "../lamborghini Videos/Lamborghini-Urus.mp4",
+    "theCarPowerCMB": "666 CV / 490 KW",
+    "theCarMXSpeed": ">305 KM/H",
+    "theCarSEC": "3,5 S"
+  },
+  {
+    "theCarModelName": "Sterrato",
+    "theCarVideo": "../lamborghini Videos/Lamborghini.Huracan-sterratto.mp4",
+    "theCarPowerCMB": "610 CV / 449 KW",
+    "theCarMXSpeed": ">260 KM/H",
+    "theCarSEC": "3.0 S"
+  }
+]
